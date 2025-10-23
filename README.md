@@ -56,12 +56,12 @@ src/data/test.csv
 From your project root, run:
 
 ```bash
-docker build -t titanic-py-app -f src/app/Dockerfile .
+docker build -t titanic-app .
 ```
 
 ### Run the container
 ```bash
-docker run --rm -v $(pwd)/src/data:/app/src/data titanic-py-app
+docker run --rm -v $(pwd)/src/data:/app/src/data titanic-app
 ```
 
 This will:
