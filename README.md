@@ -37,7 +37,7 @@ cd titanic-disaster
 
 Download the Titanic dataset from [Kaggle – Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data).
 
-Create a folder inside `src` folder and place the two CSV files into the `src/data/` folder:
+Create a folder called `data` inside `src` folder and place the two CSV files into the `src/data/` folder:
 
 ```plaintext
 src/data/train.csv
