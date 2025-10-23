@@ -23,7 +23,7 @@ titanic-disaster/
 ```
 
 ## Objective
-Build and evaluate simple logistic regression models predicting 'Survived' using selected passenger features from the Titanic dataset.
+Build and evaluate simple logistic regression models predicting `Survived` using selected passenger features from the Titanic dataset.
 
 ## Prerequisites
 You only need:
@@ -67,10 +67,10 @@ docker run --rm -v $(pwd)/src/data:/app/src/data titanic-py-app
 This will:
 
 1. Load and clean the data
-2. Train a logistic regression model on train.csv
+2. Train a logistic regression model on `train.csv`
 3. Output training accuracy
-4. Generate predictions on test.csv
-5. Save predictions to src/data/predictions.csv
+4. Generate predictions on `test.csv`
+5. Save predictions to `src/data/predictions.csv`
 
 
 ## Step 4 — Run the R Container
@@ -91,14 +91,14 @@ docker run --rm -v $(pwd)/src/data:/app/src/data titanic-r-app
 
 This will:
 1. Load and clean the data
-2. Train a logistic regression model on train.csv
+2. Train a logistic regression model on `train.csv`
 3. Output training accuracy
-4. Predict on test.csv
-5. Save predictions to src/data/predictions_r.csv
+4. Predict on `test.csv`
+5. Save predictions to `src/data/predictions_r.csv`
 
 
 ## Step 5 — Inspect the Outputs
-After running both containers, your folder src/data/ will contain:
+After running both containers, your folder `src/data/` will contain:
 
 ```plaintext
 train.csv
@@ -108,7 +108,7 @@ predictions_r.csv       ← from R model
 ```
 
 ## Notes on Design
-1. Both models use logistic regression trained on:
+1. Both models use **logistic regression** trained on:
 ```plaintext
 Pclass, Sex, Age, SibSp, Parch, Fare
 ```
