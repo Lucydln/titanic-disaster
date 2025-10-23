@@ -1,0 +1,15 @@
+# Ignore the data folder (all contents)
+src/data/
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Python cache files (if you’re coding in Python)
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints (optional)
+.ipynb_checkpoints/
