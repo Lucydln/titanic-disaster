@@ -69,6 +69,7 @@ This will:
 
 
 ## Step 4 — Run the R Container
+>  Note: you don't need any additional packages to run the R version (The install_packages.R file is empty).
 ### Build the Docker image
 
 From your project root, run:
